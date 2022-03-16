@@ -13,6 +13,7 @@ import {
 let randomQuote = data[Math.floor(Math.random() * data.length)];
 console.log(randomQuote);
 
+/* 
 interface AppProps {}
 interface AppState {
   title: string;
@@ -22,7 +23,7 @@ interface AppState {
   quote: string;
 }
 
-/* const quoteBox = document.getElementById('quote-box');
+const quoteBox = document.getElementById('quote-box');
 const quoteText = document.getElementById('quote-text');
 const quoteAuthor = document.getElementById('quote-author');
 
