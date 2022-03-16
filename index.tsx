@@ -17,7 +17,7 @@ function getQuote() {
   currentAuthor = randomQuote.author_name;
 }
 
-class QuoteDisplay extends React.Component {
+/* class QuoteDisplay extends React.Component {
   constructor(props) {
     super(props);
     this.quote = { quote: currentQuote };
@@ -28,4 +28,4 @@ class QuoteDisplay extends React.Component {
     return <div>{this.quote}</div>;
   }
 }
-ReactDOM.render(<QuoteDisplay />, document.getElementById('root'));
+ReactDOM.render(<QuoteDisplay />, document.getElementById('root'));*/
