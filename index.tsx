@@ -3,7 +3,9 @@ import { render } from 'react-dom';
 import './style.css';
 import { data, title, author_name, post_image, link, top_quote } from 'https://github.com/marlamalone/marlamalone.github.io/blob/1d585914ee6febaed505cc3cea065a4281896b96/quotes-data-alltime-clean.json';
 
-let randomQuote = data => data[Math.floor(Math.random() * data.length)];
+let randomQuote = data[Math.floor(Math.random() * data.length)];
+console.log(randomQuote);
+
 
 interface AppProps { }
 interface AppState {
