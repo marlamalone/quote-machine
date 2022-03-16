@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import './style.css';
-import * as data from './quotesData.json';
+import data from 'https://github.com/marlamalone/marlamalone.github.io/blob/1d585914ee6febaed505cc3cea065a4281896b96/quotes-data-alltime-clean.json';
 
 var currentQuote = '',
   currentAuthor = '';
@@ -12,7 +12,7 @@ function getRandomQuote() {
 
 function getQuote() {
   let randomQuote = getRandomQuote();
-
+  console.log(randomQuote);
   currentQuote = randomQuote.top_quote;
   currentAuthor = randomQuote.author_name;
 }
