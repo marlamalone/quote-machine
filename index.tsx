@@ -22,13 +22,13 @@ interface AppState {
   quote: string;
 }
 
-const quoteBox = document.getElementById('quote-box');
+/* const quoteBox = document.getElementById('quote-box');
 const quoteText = document.getElementById('quote-text');
 const quoteAuthor = document.getElementById('quote-author');
 
 quoteText.textContent = 'test';
 
-/* class App extends Component<AppProps, AppState> {
+class App extends Component<AppProps, AppState> {
   constructor(props) {
     super(props);
     this.state = {
